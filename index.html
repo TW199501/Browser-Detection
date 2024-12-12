@@ -1,0 +1,67 @@
+// ----------------------------------------------
+// 程式名稱: BlackBerry.js
+// 日期: 2024-12-11
+// 作者: John Doe
+// 說明: 
+// ----------------------------------------------
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+        <title>瀏覽器檢測</title>
+        <meta name="description" content="通過Useragent和瀏覽器環境變數等方式判斷瀏覽器、系統及設備類型，是頁麵判斷檢測的常用工具。">
+        <meta name="keywords" content="Useragent,用戶代理,瀏覽器判斷,瀏覽器類型,瀏覽器信息">
+        <link rel="stylesheet" href="static/style/index.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="header">
+                <div class="inner">
+                    <div class="mod-head">
+                        <div class="bd">
+                            <a class="btn" href="https://github.com/mumuy/browser/" rel="nofollow" target="_blank" title="Github">
+                                <svg aria-hidden="true" class="octicon" height="20" title="GitHub " version="1.1" viewBox="0 0 16 16" width="24"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59 0.4 0.07 0.55-0.17 0.55-0.38 0-0.19-0.01-0.82-0.01-1.49-2.01 0.37-2.53-0.49-2.69-0.94-0.09-0.23-0.48-0.94-0.82-1.13-0.28-0.15-0.68-0.52-0.01-0.53 0.63-0.01 1.08 0.58 1.23 0.82 0.72 1.21 1.87 0.87 2.33 0.66 0.07-0.52 0.28-0.87 0.51-1.07-1.78-0.2-3.64-0.89-3.64-3.95 0-0.87 0.31-1.59 0.82-2.15-0.08-0.2-0.36-1.02 0.08-2.12 0 0 0.67-0.21 2.2 0.82 0.64-0.18 1.32-0.27 2-0.27 0.68 0 1.36 0.09 2 0.27 1.53-1.04 2.2-0.82 2.2-0.82 0.44 1.1 0.16 1.92 0.08 2.12 0.51 0.56 0.82 1.27 0.82 2.15 0 3.07-1.87 3.75-3.65 3.95 0.29 0.25 0.54 0.73 0.54 1.48 0 1.07-0.01 1.93-0.01 2.2 0 0.21 0.15 0.46 0.55 0.38C13.71 14.53 16 11.53 16 8 16 3.58 12.42 0 8 0z"></path></svg>
+                                <span>Github</span>
+                            </a>
+                            <a class="btn" href="https://www.ip138.com/useragent/" target="_blank">Useragent分析</a>
+                            <a class="btn" href="/">返回首頁</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="inner">
+                    <div class="mod-panel">
+                        <div class="hd">
+                            <div class="title">瀏覽器檢測</div>
+                        </div>
+                        <div class="bd">
+                        </div>
+                        <div class="ft">
+                            <p class="title">讓你更了解你的用戶</p>
+                            <p class="subtitle">精準掌握用戶的設備詳情，便於根據瀏覽器的能力和特性提供相應的內容和服務</p>
+                            <a class="btn" href="https://passer-by.com/browser/dist/browser.min.js" target="_blank">獲取腳本</a>
+                        </div>
+                    </div>
+                    <div class="mod-intro">
+                        <div class="hd"><h3>應用場景</h3></div>
+                        <div class="bd">
+                            <p><strong>內容適應與適配：</strong>根據瀏覽器類型和版本，為用戶提供適應其設備的頁麵佈局和樣式。</p>
+                            <p><strong>功能限製與增強：</strong>考慮瀏覽器功能支援情況，決定是否啓用某些特定於瀏覽器的功能或特性。</p>
+                            <p><strong>網站安全性考慮：</strong>針對瀏覽器兼容性差異，決定是否允許某些特定的安全策略或限製某些不安全的瀏覽器功能。</p>
+                            <p><strong>數據分析與報告：</strong>通過分析瀏覽器佔有比數據，可以了解用戶使用習慣和偏好，用於優化網站性能和用戶體驗。</p>
+                            <p><strong>個性化廣告定位：</strong>在某些情況下，廣告服務器可能會使用User-Agent信息來決定嚮用戶展示哪種類型的廣告。</p>
+                            <p><strong>自定義日誌記錄：</strong>在開發過程中，開發者可以使用瀏覽器包含信息來記錄和跟蹤特定瀏覽器的行為和問題。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="./dist/browser.min.js"></script>
+        <script type="text/javascript" src="./static/script/index.js"></script>
+        <script type="text/javascript" src="https://passer-by.com/public/script/projects.js"></script>
+        <script type="text/javascript" src="https://passer-by.com/public/script/stat.js"></script>
+    </body>
+</html>
